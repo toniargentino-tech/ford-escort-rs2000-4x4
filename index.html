@@ -1,0 +1,128 @@
+
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ford Escort RS2000 4x4 | The Legend</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{background:#0b0b0b;color:#fff;font-family:Arial,sans-serif}
+header{height:75px;padding:0 8%;display:flex;align-items:center;justify-content:space-between;background:#080808;border-bottom:1px solid #292929}
+.logo{font-size:24px;font-weight:900;color:#e32636}
+nav a{color:white;text-decoration:none;margin-left:22px;font-size:13px}
+nav a:hover{color:#e32636}
+.hero{min-height:650px;display:flex;align-items:center;padding:70px 10%;background:linear-gradient(90deg,#080808 10%,#080808dd 55%,#08080866),url('assets/rs2000-front.jpg') center/cover}
+.hero small{color:#e32636;letter-spacing:5px;font-weight:bold}
+.hero h1{font-size:clamp(48px,9vw,100px);font-weight:900;line-height:.95;margin:20px 0}
+.hero h1 span{color:#e32636}
+.hero p{color:#ccc;line-height:1.8;max-width:500px;margin-bottom:30px}
+.btn{display:inline-block;padding:15px 27px;background:#e32636;color:white;text-decoration:none;font-weight:bold}
+section{padding:85px 10%}
+h2{font-size:38px;margin-bottom:30px}
+h2 span{color:#e32636}
+.intro{color:#bbb;line-height:1.9;max-width:850px}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:15px;margin-top:40px}
+.stat{background:#191919;padding:25px;border-bottom:3px solid #e32636}
+.stat strong{font-size:32px;color:#e32636;display:block;margin-bottom:10px}
+.stat small{color:#aaa}
+.dark{background:#151515}
+.gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:18px}
+.photo{height:240px;background:#222;display:flex;align-items:center;justify-content:center;overflow:hidden;border:1px solid #333}
+.photo img{width:100%;height:100%;object-fit:cover;transition:.4s}
+.photo:hover img{transform:scale(1.06)}
+.photo span{color:#888;font-size:13px}
+.specs{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}
+.spec{padding:20px;background:#1c1c1c;border-left:3px solid #e32636}
+.spec span{color:#999;font-size:12px}
+.spec h3{margin-top:8px}
+footer{text-align:center;background:#050505;color:#777;padding:35px}
+footer strong{color:#e32636}
+@media(max-width:650px){
+header{height:auto;padding:20px;flex-direction:column;gap:20px}
+nav a{margin:0 7px;font-size:11px}
+.hero{min-height:520px;padding:45px 7%}
+section{padding:60px 7%}
+}
+</style>
+</head>
+<body>
+
+<header>
+ <div class="logo">FORD RS2000</div>
+ <nav>
+  <a href="#home">DOMOV</a>
+  <a href="#historia">HISTÓRIA</a>
+  <a href="#technika">TECHNIKA</a>
+  <a href="#galeria">GALÉRIA</a>
+ </nav>
+</header>
+
+<div class="hero" id="home">
+ <div>
+  <small>RALLY SPORT • 4 WHEEL DRIVE</small>
+  <h1>ESCORT<br><span>RS2000</span><br>4×4</h1>
+  <p>
+   Čistá esencia športových Fordov 90. rokov.
+   Atmosférický motor 2.0 16V, pohon všetkých
+   štyroch kolies a nezameniteľný charakter.
+  </p>
+  <a href="#technika" class="btn">OBJAV LEGENDU</a>
+ </div>
+</div>
+
+<section id="historia">
+ <h2>Legenda menom <span>RS2000</span></h2>
+ <p class="intro">
+  Ford Escort RS2000 4×4 je vzácna športová verzia
+  modelu Escort z prvej polovice 90. rokov.
+  Kombinuje dvojlitrový atmosférický motor DOHC
+  so 16 ventilmi a pohon všetkých štyroch kolies.
+  <br><br>
+  Model 4×4 sa dostal do ponuky v roku 1993.
+  Predstavuje zaujímavú kapitolu histórie Ford RS
+  a dnes je vyhľadávaným autom medzi fanúšikmi
+  klasických športových Fordov.
+ </p>
+ <div class="stats">
+  <div class="stat"><strong>1993</strong><small>ZAČIATOK VERZIE 4×4</small></div>
+  <div class="stat"><strong>2.0</strong><small>DOHC 16V MOTOR</small></div>
+  <div class="stat"><strong>4×4</strong><small>POHON VŠETKÝCH KOLIES</small></div>
+ </div>
+</section>
+
+<section class="dark" id="technika">
+ <h2>Technické <span>parametre</span></h2>
+ <div class="specs">
+  <div class="spec"><span>MOTOR</span><h3>2.0 DOHC 16V</h3></div>
+  <div class="spec"><span>OBJEM</span><h3>1998 cm³</h3></div>
+  <div class="spec"><span>VÝKON</span><h3>150 PS / 110 kW</h3></div>
+  <div class="spec"><span>KRÚTIACI MOMENT</span><h3>190 Nm</h3></div>
+  <div class="spec"><span>PREVODOVKA</span><h3>5-stupňová manuálna</h3></div>
+  <div class="spec"><span>POHON</span><h3>4×4</h3></div>
+  <div class="spec"><span>MAXIMÁLNA RÝCHLOSŤ</span><h3>208 km/h</h3></div>
+  <div class="spec"><span>ZRÝCHLENIE 0–100</span><h3>Približne 9,1 s</h3></div>
+ </div>
+</section>
+
+<section id="galeria">
+ <h2>Fotogaléria <span>RS2000</span></h2>
+ <div class="gallery">
+  <div class="photo"><img src="assets/rs2000-front.jpg" alt="RS2000 spredu"></div>
+  <div class="photo"><img src="assets/rs2000-side.jpg" alt="RS2000 zboku"></div>
+  <div class="photo"><img src="assets/rs2000-rear.jpg" alt="RS2000 zozadu"></div>
+  <div class="photo"><img src="assets/rs2000-interior.jpg" alt="Interiér RS2000"></div>
+  <div class="photo"><img src="assets/rs2000-engine.jpg" alt="Motor RS2000"></div>
+  <div class="photo"><img src="assets/rs2000-wheels.jpg" alt="Kolesá RS2000"></div>
+ </div>
+</section>
+
+<footer>
+ <strong>FORD ESCORT RS2000 4×4</strong>
+ <p>Legenda, ktorá nezostarne.</p>
+ <p>© 2026 RS2000 Fan Page</p>
+</footer>
+
+</body>
+</html>
